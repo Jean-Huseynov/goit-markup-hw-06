@@ -1002,6 +1002,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
 /* footer-email div 3 */
+.footer-email {
+    margin-left: 23px;
+}
+
 .input-footer {
     /* position: absolute; */
         width: 358px;
@@ -1316,13 +1320,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     border-radius: 50%;
 
-    transition-property: transition-duration;
+    transition-property: transition-duration, cursor;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-close:hover {
     transition-duration: 250ms;
+    cursor: pointer;
 }
 
 .bcard-set-img {
@@ -1454,8 +1459,7 @@ margin: 12px 0px 4px 0px;
     
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    resize: horizontal 448px;
-
+    resize: none;
 
     transition-property: border;
     transition-duration: 250ms;
